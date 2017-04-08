@@ -22,9 +22,11 @@ module.exports = {
   resolve: {
     root: __dirname,
     alias: {
+      Countdown: "app/components/Countdown.jsx",
       Main: 'app/components/Main.jsx',
       Nav: "app/components/Nav.jsx",
-      applicationStyles: 'app/styles/app.scss'
+      applicationStyles: 'app/styles/app.scss',
+      Timer: "app/components/Timer.jsx"
     },
     extensions: ['', '.js', '.jsx']
   },
