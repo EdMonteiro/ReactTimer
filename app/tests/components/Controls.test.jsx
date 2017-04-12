@@ -30,5 +30,4 @@ describe("controls", () => {
             expect($pauseButton.length).toBe(1);
         });
     });
-    
 });
